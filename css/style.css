@@ -1,11 +1,2 @@
 @import url('https://fonts.googleapis.com/css2?family=Italianno&family=Roboto+Mono&family=Roboto:ital,wght@1,300&display=swap');
 
-body {
-    font-family: 'Italianno', cursive;
-    font-size: 3.5em;
-    background: url("/images/hawaii-beach.jpg");
-    background-size: cover;
-    color:aliceblue;
-    text-align: center;
-    letter-spacing: 4px;
-}
