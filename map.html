@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+                <script type="text/javascript">window.gdprAppliesGlobally=true;(function(){function a(e){if(!window.frames[e]){if(document.body&&document.body.firstChild){var t=document.body;var n=document.createElement("iframe");n.style.display="none";n.name=e;n.title=e;t.insertBefore(n,t.firstChild)}
+        else{setTimeout(function(){a(e)},5)}}}function e(n,r,o,c,s){function e(e,t,n,a){if(typeof n!=="function"){return}if(!window[r]){window[r]=[]}var i=false;if(s){i=s(e,t,n)}if(!i){window[r].push({command:e,parameter:t,callback:n,version:a})}}e.stub=true;function t(a){if(!window[n]||window[n].stub!==true){return}if(!a.data){return}
+            var i=typeof a.data==="string";var e;try{e=i?JSON.parse(a.data):a.data}catch(t){return}if(e[o]){var r=e[o];window[n](r.command,r.parameter,function(e,t){var n={};n[c]={returnValue:e,success:t,callId:r.callId};a.source.postMessage(i?JSON.stringify(n):n,"*")},r.version)}}
+            if(typeof window[n]!=="function"){window[n]=e;if(window.addEventListener){window.addEventListener("message",t,false)}else{window.attachEvent("onmessage",t)}}}e("__tcfapi","__tcfapiBuffer","__tcfapiCall","__tcfapiReturn");a("__tcfapiLocator");(function(e){
+            var t=document.createElement("script");t.id="spcloader";t.type="text/javascript";t.async=true;t.src="https://sdk.privacy-center.org/"+e+"/loader.js?target="+document.location.hostname;t.charset="utf-8";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n)})("60ac3ba7-1ae5-42dc-be9a-50140ae6cea1")})();</script>
+    
+    <script>
+    dataLayer = window.dataLayer || [];
+    dataLayer.push({
+        'analytics': 'UA-76680813-1',
+        'isGuide': 'true',
+        'guideLang': 'en',
+        'geoCode': 'GB'
+    });
+</script>
+
+
+    <link rel="preconnect" href="https://cdn2.civitatis.com"/>
+    <meta name="title" content="Map of New York - New York Interactive map" />
+    <meta name="description" content="New York map with all the city’s monuments, museums and attractions. Plan your trip with our New York interactive map." />
+    <meta name="keywords" content="New York map, map of New York, New York addresses, street map of New York, New York street map, New York interactive map, interactive map of New York" />
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rev="made" rel="author" href="mailto:" />
+    <meta name="revisit-after" content="30" />
+    <meta name="robots" content="all" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"9bf0b81ab3",applicationID:"22384886"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n,r){return function(){return s.recordSupportability("API/"+e+"/called"),o(t+e,[u.now()].concat(c(arguments)),n?null:this,r),n?void 0:this}}var o=t("handle"),a=t(9),c=t(10),f=t("ee").get("tracer"),u=t("loader"),s=t(4),d=NREUM;"undefined"==typeof window.newrelic&&(newrelic=d);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",v=l+"ixn-";a(p,function(t,e){d[e]=i(l,e,!0,"api")}),d.addPageAction=i(l,"addPageAction",!0),d.setCurrentRouteName=i(l,"routeName",!0),e.exports=newrelic,d.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(v+"tracer",[u.now(),t,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw f.emit("fn-err",[arguments,this,t],n),t}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(v,e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),s.recordSupportability("API/noticeError/called"),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){var r=!1;try{var i=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,i),window.removeEventListener("testPassive",null,i)}catch(o){}e.exports=function(t){return r?{passive:!0,capture:!!t}:!!t}},{}],4:[function(t,e,n){function r(t,e){var n=[a,t,{name:t},e];return o("storeMetric",n,null,"api"),n}function i(t,e){var n=[c,t,{name:t},e];return o("storeEventMetrics",n,null,"api"),n}var o=t("handle"),a="sm",c="cm";e.exports={constants:{SUPPORTABILITY_METRIC:a,CUSTOM_METRIC:c},recordSupportability:r,recordCustom:i}},{}],5:[function(t,e,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=t(11);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],6:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?l("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&l("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(u&&u<r.startTime)return;var i=[r],o=a({});o&&i.push(o),l("lcp",i)}}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||l("cls",[t])})}function a(t){var e=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(e)return e.type&&(t["net-type"]=e.type),e.effectiveType&&(t["net-etype"]=e.effectiveType),e.rtt&&(t["net-rtt"]=e.rtt),e.downlink&&(t["net-dlink"]=e.downlink),t}function c(t){if(t instanceof y&&!w){var e=Math.round(t.timeStamp),n={type:t.type};a(n),e<=v.now()?n.fid=v.now()-e:e>v.offset&&e<=Date.now()?(e-=v.offset,n.fid=v.now()-e):e=v.now(),w=!0,l("timing",["fi",e,n])}}function f(t){"hidden"===t&&(u=v.now(),l("pageHide",[u]))}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var u,s,d,p,l=t("handle"),v=t("loader"),m=t(8),g=t(3),y=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){s=new PerformanceObserver(r);try{s.observe({entryTypes:["paint"]})}catch(h){}d=new PerformanceObserver(i);try{d.observe({entryTypes:["largest-contentful-paint"]})}catch(h){}p=new PerformanceObserver(o);try{p.observe({type:"layout-shift",buffered:!0})}catch(h){}}if("addEventListener"in document){var w=!1,b=["click","keydown","mousedown","pointerdown","touchstart"];b.forEach(function(t){document.addEventListener(t,c,g(!1))})}m(f)}},{}],7:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}e.exports={agent:i,version:o,match:r}},{}],8:[function(t,e,n){function r(t){function e(){t(c&&document[c]?document[c]:document[o]?"hidden":"visible")}"addEventListener"in document&&a&&document.addEventListener(a,e,i(!1))}var i=t(3);e.exports=r;var o,a,c;"undefined"!=typeof document.hidden?(o="hidden",a="visibilitychange",c="visibilityState"):"undefined"!=typeof document.msHidden?(o="msHidden",a="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(o="webkitHidden",a="webkitvisibilitychange",c="webkitVisibilityState")},{}],9:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],10:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],11:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,f,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var c=e(i),f=m(n),u=f.length,s=0;s<u;s++)f[s].apply(c,r);var p=d[w[n]];return p&&p.push([b,n,r,c]),c}}function o(t,e){h[t]=m(t).concat(e)}function v(t,e){var n=h[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return h[t]||[]}function g(t){return p[t]=p[t]||i(n)}function y(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var h={},w={},b={on:o,addEventListener:o,removeEventListener:v,emit:n,get:g,listeners:m,context:e,buffer:y,abort:c,aborted:!1};return b}function o(t){return u(t,f,a)}function a(){return new r}function c(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var f="nr@context",u=t("gos"),s=t(9),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!M++){var t=T.info=NREUM.info,e=m.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(x,function(e,n){t[e]||(t[e]=n)});var n=a();c("mark",["onload",n+T.offset],null,"api"),c("timing",["load",n]);var r=m.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=l+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===m.readyState&&o()}function o(){c("mark",["domContent",a()+T.offset],null,"api")}var a=t(5),c=t("handle"),f=t(9),u=t("ee"),s=t(7),d=t(2),p=t(3),l=d.getConfiguration("ssl")===!1?"http":"https",v=window,m=v.document,g="addEventListener",y="attachEvent",h=v.XMLHttpRequest,w=h&&h.prototype,b=!1;NREUM.o={ST:setTimeout,SI:v.setImmediate,CT:clearTimeout,XHR:h,REQ:v.Request,EV:v.Event,PR:v.Promise,MO:v.MutationObserver};var E=""+location,x={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1216.min.js"},O=h&&w&&w[g]&&!/CriOS/.test(navigator.userAgent),T=e.exports={offset:a.getLastTimestamp(),now:a,origin:E,features:{},xhrWrappable:O,userAgent:s,disabled:b};if(!b){t(1),t(6),m[g]?(m[g]("DOMContentLoaded",o,p(!1)),v[g]("load",r,p(!1))):(m[y]("onreadystatechange",i),v[y]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var M=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,f,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,f],s],t)}c(n+"start",[o,a,f],s,u);try{return p=e.apply(a,o)}catch(v){throw c(n+"err",[o,a,v],s,u),v}finally{c(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var c,f,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)f=e[u],c=t[f],a(c)||(t[f]=n(c,s?f+r:r,i,f,o))}function c(n,r,o,a){if(!v||e){var c=v;v=!0;try{t.emit(n,r,o,e,a)}catch(f){i([f,n,r,o],t)}v=c}}return t||(t=s),n.inPlace=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function c(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function f(t,e,n){var r=t[e];t[e]=c(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(10),p="nr@original",l=Object.prototype.hasOwnProperty,v=!1;e.exports=r,e.exports.wrapFunction=c,e.exports.wrapInPlace=f,e.exports.argsToArray=u},{}]},{},["loader"]);</script>
+    <meta name="theme-color" content="#f70759">
+    <meta name="p:domain_verify" content="c7f46053b0b7b48b381542ef63ebe44e"/>
+    <meta name="pinterest-rich-pin" content="false" />
+        <link rel="preload" href="https://cdn2.civitatis.com/fonts/civitatis-new-icons.woff2" as="font" type="font/woff2" crossorigin />
+        <link rel="preload" href="https://cdn2.civitatis.com/fonts/montserrat-regular-webfont.woff2" as="font" type="font/woff2" crossorigin />
+            <link rel="preload" href="https://cdn2.civitatis.com/fonts/guias-new-texts-webfont-v2.woff2" as="font" type="font/woff2" crossorigin />
+        <meta name="theme-color" content="#ffffff">
+    
+
+            <link rel="canonical" href="https://www.introducingnewyork.com/map"/>
+    
+    
+    
+                            
+            
+                    <link rel="alternate" href="https://www.introducingnewyork.com/map" hreflang="en"/>
+                
+<script defer type="text/javascript" charset="UTF-8" src="//www.civitatis.com/en/generateJStranslations/2306092dcc4d9f75ebb55832ee0fa9c57b942867" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" charset="UTF-8" src="https://cdn2.civitatis.com/js/vendor/jquery-2306092dcc4d9f75ebb55832ee0fa9c57b942867.min.js" crossorigin="anonymous"></script>
+    <script defer type="text/javascript" charset="UTF-8" src="https://cdn2.civitatis.com/js/vendor/civitatisGuidesCommonVendor-2306092dcc4d9f75ebb55832ee0fa9c57b942867.min.js" crossorigin="anonymous"></script>
+
+            <script id="civ-map-vendor-script" defer type="text/javascript" src="https://cdn2.civitatis.com/js/vendor/civMapVendor-2306092dcc4d9f75ebb55832ee0fa9c57b942867.min.js" crossorigin="anonymous"></script>
+        <script id="extra-vendor-script" defer type="text/javascript" src="https://cdn2.civitatis.com/js/vendor/civExtraVendor-2306092dcc4d9f75ebb55832ee0fa9c57b942867.min.js" crossorigin="anonymous"></script>
+        <script id="maps-helper-script" defer type="text/javascript" charset="UTF-8" src="https://cdn2.civitatis.com/js/ext/mapsGuides-2306092dcc4d9f75ebb55832ee0fa9c57b942867.min.js" crossorigin="anonymous"></script>
+        <script id="guide-map-helper-script" defer type="text/javascript" charset="UTF-8" src="https://cdn2.civitatis.com/js/ext/guideMap-2306092dcc4d9f75ebb55832ee0fa9c57b942867.min.js" crossorigin="anonymous"></script>
+    
+
+
+
+
+    <script defer type="text/javascript" charset="UTF-8" src="https://cdn2.civitatis.com/js/civReactWeb-2306092dcc4d9f75ebb55832ee0fa9c57b942867.min.js" crossorigin="anonymous"></script>
+
+    <script defer defer type="text/javascript" src="https://cdn2.civitatis.com/js/vendor/civitatisLottieVendor-2306092dcc4d9f75ebb55832ee0fa9c57b942867.min.js" crossorigin="anonymous"></script>
+    <script defer type="text/javascript" charset="UTF-8" src="https://cdn2.civitatis.com/js/errorHandler-2306092dcc4d9f75ebb55832ee0fa9c57b942867.min.js"></script>
+    <script defer type="text/javascript" charset="UTF-8" src="https://cdn2.civitatis.com/js/performanceHandler-2306092dcc4d9f75ebb55832ee0fa9c57b942867.min.js" crossorigin="anonymous"></script>
+            <script defer type="text/javascript" charset="UTF-8" src="https://cdn2.civitatis.com/js/visitsCounterHandler-2306092dcc4d9f75ebb55832ee0fa9c57b942867.min.js"></script>
+            <script defer type="text/javascript" charset="UTF-8" id="utils-helper-script" src="https://cdn2.civitatis.com/js/ext/UtilsHelperGuides-2306092dcc4d9f75ebb55832ee0fa9c57b942867.min.js" crossorigin="anonymous"></script>
+    <script defer type="text/javascript" charset="UTF-8" src="https://cdn2.civitatis.com/js/ext/commonGuides-2306092dcc4d9f75ebb55832ee0fa9c57b942867.min.js" crossorigin="anonymous"></script>
+    <script defer type="text/javascript" src="https://cdn2.civitatis.com/js/guides-2306092dcc4d9f75ebb55832ee0fa9c57b942867.min.js" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+
+            <style>
+    @font-face {
+        font-family: 'montserrat';
+        src: url('https://cdn2.civitatis.com/fonts/montserrat-light-webfont.woff2') format('woff2'),
+             url('https://cdn2.civitatis.com/fonts/montserrat-light-webfont.woff') format('woff');
+        font-weight: 200;
+        font-style: normal;
+        font-display: swap;
+    }
+    body {
+        font-family: montserrat, arial, sans-serif;
+        font-weight: 200;
+    }
+                    @font-face {
+        font-family: 'guias-texts';
+        src: url('https://cdn2.civitatis.com/fonts/guias-new-texts-webfont-v2.woff2') format('woff2'),
+        url('https://cdn2.civitatis.com/fonts/guias-new-texts-webfont-v2.woff') format('woff');
+        font-weight: 200;
+        font-style: normal;
+        font-display: swap;
+        citislug: new-york;
+    }
+    .a-header__logo__city:before, .a-header__logo__civitatis:before {
+        font-family: guias-texts;
+    }
+    </style>
+
+<!-- isHome:  -->
+
+
+
+
+
+
+
+            <link href="https://cdn2.civitatis.com/css/guidesVendor-2306092dcc4d9f75ebb55832ee0fa9c57b942867.min.css" rel="stylesheet">
+        <link href="https://cdn2.civitatis.com/css/guidesAbove-2306092dcc4d9f75ebb55832ee0fa9c57b942867.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn2.civitatis.com/css/civNew-2306092dcc4d9f75ebb55832ee0fa9c57b942867.min.css" media="all"/>
+    
+            <link href="https://cdn2.civitatis.com/css/nueva_york-2306092dcc4d9f75ebb55832ee0fa9c57b942867.min.css" rel="stylesheet">
+    
+
+<link rel="preload" href="https://cdn2.civitatis.com/fonts/montserrat-regular-webfont.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="https://cdn2.civitatis.com/fonts/montserrat-ultralight-webfont.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="https://cdn2.civitatis.com/fonts/montserrat-semibold-webfont.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="https://cdn2.civitatis.com/fonts/montserrat-bold-webfont.woff2" as="font" type="font/woff2" crossorigin />
+
+
+
+            
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@civitatis" />
+    <meta name="twitter:description" content="New York map with all the city’s monuments, museums and attractions. Plan your trip with our New York interactive map." />
+    <meta name="twitter:title" content="Map of New York - New York Interactive map">
+    <meta name="twitter:image" content="https://cdn2.civitatis.com/estados-unidos/nueva-york/guia/nueva-york.jpg" />
+
+    <meta property="og:title" content="Map of New York - New York Interactive map" />
+    <meta property="og:url" content="https://www.introducingnewyork.com/map" />
+    <meta property="og:description" content="New York map with all the city’s monuments, museums and attractions. Plan your trip with our New York interactive map." />
+    <meta property="og:image" content="https://cdn2.civitatis.com/estados-unidos/nueva-york/guia/nueva-york.jpg" />
+    <meta property="og:type" content="article" />
+
+            <script>
+    if (location.host.indexOf('local') !== -1) {
+        console.log('CARGADO EL FLAG isGTMNewModelEnabled .............................................');
+    }
+        if (location.host.indexOf('local') !== -1) {
+        console.log('isGTMNewModelEnabled es true');
+    }
+    var isGTMNewModelEnabled = true;
+    </script>    
+    </head>
+<body class=" _price-GBP is-guide --guide  --old-design">
+</ul>                                                         
+                     
+</header>
+
+
+
+<!---container-->
+    <main id="civ-main-element" class="l-guide-main">
+    <aside class="l-guide-main__menu">
+        <nav>
+            <span class="show-for-sr">Menú lateral</span>
+        </nav>
+    </aside>
+            <div class="slider-pages _static">
+            <div class="l-guide-main__container">
+            <article class="l-guide-main__content">
+                <div id="principal">
+                    <div class="map-canvas">
+                        <div class="map-canvas__finder">
+                            <input id="pac-input" class="map-canvas__finder__input" type="text"
+                                   placeholder="Search">
+                        </div>
+                        <div class="map-canvas_filter">
+                            <a class="map_canvas_filter_button" title="Filter">Filter</a>
+                        </div>
+                        <div class="map-canvas__container">
+                            <div id="map_canvas" class="m-map m-map-principal js-map-new u-loading"
+                                data-zoom="12" data-center="{&quot;lat&quot;:&quot;40.714362&quot;,&quot;lng&quot;:&quot;-74.005966&quot;}"
+                                                                style="width:100%; height:700px">
+                            </div>
+                        </div>
+    
+                
+                    </section>
+                </div>
+
+                    <script>//map api
+                        window.slug = ['map'];
+                    </script>
+                <script>
+                    window.iso2 = ['US'];
+                </script>
+                <script>
+                       window.hoteles = [
+                            
+                        
+                        
+        ['lower-east-side','Lower East Side','-73.990238','40.718111','https://cdn2.civitatis.com/estados-unidos/nueva-york/guia/lower-east-side-list.jpg','10','7','&lt;p&gt;East of Chinatown.&lt;/p&gt;'],
+        ['bronx','The Bronx','-73.981018','40.8515753','https://cdn2.civitatis.com/estados-unidos/nueva-york/guia/bronx-list.jpg','10','8',''],
+        ['soho','SoHo New York','-74.001911','40.724535','https://cdn2.civitatis.com/estados-unidos/nueva-york/guia/soho-list.jpg','10','9','&lt;p&gt;West of Little Italy.&lt;/p&gt;'],
+        ['staten-island','Staten Island','-74.2869025','40.564521','https://cdn2.civitatis.com/estados-unidos/nueva-york/guia/staten-island-list.jpg','10','10',''],
+        ['tribeca','TriBeCa New York','-74.006932','40.71912','https://cdn2.civitatis.com/estados-unidos/nueva-york/guia/tribeca-list.jpg','10','11','&lt;p&gt;Between Canal, Chambers, Broadway and West St.&lt;/p&gt;'],
+        ['jfk-airport','JFK Airport','-73.785939','40.647108','https://cdn2.civitatis.com/estados-unidos/nueva-york/guia/aeropuerto-jfk-list.jpg','2','1','&lt;p&gt;15, 5 miles southeast of Manhattan&lt;/p&gt;'],
+        ['laguardia-airport','LaGuardia Airport','-73.871974','40.774082','https://cdn2.civitatis.com/estados-unidos/nueva-york/guia/aeropuerto-laguardia-list.jpg','2','2','&lt;p&gt;7.4 miles east of Manhattan&lt;/p&gt;'],
+        ['newark-airport','Newark Airport','-74.17913','40.691263','https://cdn2.civitatis.com/estados-unidos/nueva-york/guia/aeropuerto-newark-list.jpg','2','3','&lt;p&gt;16 miles from midtown Manhattan&lt;/p&gt;'],
+        ['grand-central-terminal','Grand Central Terminal','-73.977138','40.752812','https://cdn2.civitatis.com/estados-unidos/nueva-york/guia/grand-central-terminal-list.jpg','4','1','&lt;p&gt;&lt;strong&gt;15 Vanderbilt Avenue&lt;/strong&gt;.&lt;/p&gt;'],
+        ['times-square','Times Square','-73.985673','40.757707','https://cdn2.civitatis.com/estados-unidos/nueva-york/guia/times-square-list.jpg','14','1','&lt;p&gt;Intersection between Broadway and 7th Avenue.&lt;/p&gt;'],
+        ['fifth-avenue','Fifth Avenue','-73.973694','40.763357','https://cdn2.civitatis.com/estados-unidos/nueva-york/guia/quinta-avenida-list.jpg','14','2','&lt;p&gt;Fifth Avenue, between 33rd and 34th Street.&lt;/p&gt;'],
+        ['empire-state','Empire State Building','-73.985123','40.748255','https://cdn2.civitatis.com/estados-unidos/nueva-york/guia/empire-state-list.jpg','14','3','&lt;p&gt;&lt;strong&gt;Fifth Avenue, between 33rd and 34th streets. &lt;/strong&gt;&lt;/p&gt;'],
+        ['central-park','Central Park','-73.965594','40.782426','https://cdn2.civitatis.com/estados-unidos/nueva-york/guia/central-park-list.jpg','14','4','&lt;p&gt;Between &lt;strong&gt;5th and 8th Avenue &lt;/strong&gt;and 59th Street and 110th Street.&lt;/p&gt;'],
+        ['world-trade-center','World Trade Center','-74.012489','40.712199','https://cdn2.civitatis.com/estados-unidos/nueva-york/guia/world-trade-center-list.jpg','14','5','&lt;p&gt;By Wall Street in Lower Manhattan&lt;/p&gt;'],
+        ['statue-of-liberty','Statue of Liberty','-74.044566','40.689201','https://cdn2.civitatis.com/estados-unidos/nueva-york/guia/estatua-libertad-list.jpg','14','6','&lt;p&gt;&lt;strong&gt;Liberty Island&lt;/strong&gt;, southeast of Manhattan.&lt;/p&gt;'],
+        ['memorial-11-s','9/11 Memorial','-74.0135866','40.7115984','https://cdn2.civitatis.com/estados-unidos/nueva-york/guia/memorial-11-s-list.jpg','14','7',''],
+        ['one-world-trade-center','One World Trade Center','-74.0133795','40.7127431','https://cdn2.civitatis.com/estados-unidos/nueva-york/guia/one-world-trade-center-list.jpg','14','8','&lt;p&gt;285 Fulton Street.&lt;/p&gt;'],
+        ['ellis-island','Ellis Island','-74.039708','40.698995','https://cdn2.civitatis.com/estados-unidos/nueva-york/guia/ellis-island-list.jpg','14','9','&lt;p&gt;Southeast of Manhattan&lt;/p&gt;'],
+        ['rockefeller-center','Rockefeller Center','-73.978661','40.758704','https://cdn2.civitatis.com/estados-unidos/nueva-york/guia/rockefeller-center-list.jpg','14','10','&lt;p&gt;Between Fifth and Sixth Avenue and 49th and 50th Street&lt;/p&gt;'],
+        ['brooklyn-bridge','Brooklyn Bridge','-73.99689','40.706116','https://cdn2.civitatis.com/estados-unidos/nueva-york/guia/puente-brooklyn-list.jpg','14','11','&lt;p&gt;Between Manhattan and Brooklyn&lt;/p&gt;'],
+        ['federal-hall','Federal Hall','-74.010322','40.707157','https://cdn2.civitatis.com/estados-unidos/nueva-york/guia/federal-hall-list.jpg','14','12','&lt;p&gt;26 Wall Street.&lt;/p&gt;'],
+        ['the-edge','The Edge','-74.0013343','40.7541372','https://cdn2.civitatis.com/estados-unidos/nueva-york/guia/the-edge-list.jpg','14','13','&lt;p&gt;Hudson Yards, New York.&lt;/p&gt;'],
+        ['one-vanderbilt-the-summit','The Summit - One Vanderbilt','-73.9784836','40.7529967','https://cdn2.civitatis.com/estados-unidos/nueva-york/guia/one-vanderbilt-the-summit-list.jpg','14','14','&lt;p&gt;1 Vanderbilt Avenue&lt;/p&gt;'],
+        ['memorial-museum','National September 11 Museum','-74.0129557','40.7115763','https://cdn2.civitatis.com/estados-unidos/nueva-york/guia/museo-11-s-list.jpg','16','1','&lt;p&gt;World Trade Center, Lower Manhattan&lt;/p&gt;'],
+        ['metropolitan','Metropolitan Museum of Art','-73.962563','40.779134','https://cdn2.civitatis.com/estados-unidos/nueva-york/guia/metropolitan-list.jpg','16','2','&lt;p&gt;&lt;strong&gt;82nd Street with Fifth Avenue&lt;/strong&gt;.&lt;/p&gt;'],
+        ['moma','MoMA','-73.976805','40.761118','https://cdn2.civitatis.com/estados-unidos/nueva-york/guia/moma-list.jpg','16','3','&lt;p&gt;&lt;strong&gt;53rd Street between Fifth and Sixth Avenue&lt;/strong&gt;.&lt;/p&gt;'],
+        ['guggenheim-museum','Guggenheim Museum','-73.958958','40.783131','https://cdn2.civitatis.com/estados-unidos/nueva-york/guia/museo-guggenheim-list.jpg','16','4','&lt;p&gt;89th Street with Fifth Avenue&lt;/p&gt;'],
+        ['frick-collection','The Frick Collection','-73.967342','40.771145','https://cdn2.civitatis.com/estados-unidos/nueva-york/guia/frick-collection-list.jpg','16','5','&lt;p&gt;1 East 70th Street, between Madison and Fifth Avenue&lt;/p&gt;'],
+        ['intrepid-museum','Intrepid Sea, Air &amp; Space Museum','-73.999443','40.764413','https://cdn2.civitatis.com/estados-unidos/nueva-york/guia/intrepid-museum-list.jpg','16','6','&lt;p&gt;Pier 86 at 42nd Street.&lt;/p&gt;'],
+        ['museum-natural-history','American Museum of Natural History','-73.973458','40.780769','https://cdn2.civitatis.com/estados-unidos/nueva-york/guia/museo-historia-natural-list.jpg','16','7','&lt;p&gt;&lt;strong&gt;79th Street – West of Central Park&lt;/strong&gt;.&lt;/p&gt;'],
+        ['madame-tussauds','Madame Tussauds','-73.988564','40.756618','https://cdn2.civitatis.com/estados-unidos/nueva-york/guia/madame-tussauds-list.jpg','16','8','&lt;p&gt;232 West 42nd Street (In Times Square).&lt;/p&gt;'],
+        ['tenement-museum','Tenement Museum','-73.989884','40.718758','https://cdn2.civitatis.com/estados-unidos/nueva-york/guia/tenement-museum-list.jpg','16','9','&lt;p&gt;108 Orchard Street&lt;/p&gt;'],
+        ['museum-city-new-york','Museum of the City of New York','-73.951968','40.792517','https://cdn2.civitatis.com/estados-unidos/nueva-york/guia/museo-ciudad-nueva-york-list.jpg','16','10','&lt;p&gt;1220 Fifth Avenue with 103rd Street&lt;/p&gt;'],
+        ['whitney-museum-american-art','Whitney Museum of American Art','-74.0088629','40.7395877','https://cdn2.civitatis.com/estados-unidos/nueva-york/guia/whitney-museum-american-art-list.jpg','16','11','&lt;p&gt;99 Gansevoort Street&lt;/p&gt;'],
+        ['new-museum','New Museum','-73.993011','40.722212','https://cdn2.civitatis.com/estados-unidos/nueva-york/guia/new-museum-list.jpg','16','12','&lt;p&gt;235 Bowery, New York&lt;/p&gt;'],
+        ['city-police-museum','The New York City Police Museum','-74.0098836','40.7064627','https://cdn2.civitatis.com/estados-unidos/nueva-york/guia/museo-policia-list.jpg','16','13','&lt;p&gt;45 Wall St.&lt;/p&gt;'],
+        ['saint-patrick-cathedral','St Patrick’s Cathedral','-73.976516','40.758692','https://cdn2.civitatis.com/estados-unidos/nueva-york/guia/catedral-san-patricio-list.jpg','18','1','&lt;p&gt;Fifth Avenue, between 50th Street and 51st Street.&lt;/p&gt;'],
+        ['cathedral-saint-john-divine','Cathedral of Saint John the Divine','-73.962257','40.80391','https://cdn2.civitatis.com/estados-unidos/nueva-york/guia/catedral-san-juan-el-divino-list.jpg','18','2','&lt;p&gt;1047 Amsterdam Avenue&lt;/p&gt;'],
+        ['high-line','High Line Elevated Park','-74.004679','40.747928','https://cdn2.civitatis.com/estados-unidos/nueva-york/guia/high-line-list.jpg','20','1','&lt;p&gt;Lower West Side of Manhattan, between Gansevoort Street and 34th Street.&lt;/p&gt;'],
+        ['madison-square-garden','Madison Square Garden','-73.993499','40.750492','https://cdn2.civitatis.com/estados-unidos/nueva-york/guia/madison-square-garden-list.jpg','28','1','&lt;p&gt;&lt;strong&gt;Penn Plaza 4&lt;/strong&gt;, New York.&lt;/p&gt;'],
+        ['vessel','Vessel','-74.0024275','40.7537666','https://cdn2.civitatis.com/estados-unidos/nueva-york/guia/the-vessel-list.jpg','30','1','&lt;p&gt;20 Hudson Yards.&lt;/p&gt;'],
+        ['washington-dc','Washington D.C.','-77.035317','38.889546','https://cdn2.civitatis.com/estados-unidos/nueva-york/guia/washington-dc-list.jpg','36','1','&lt;p&gt;240 miles southwest of New York.&lt;/p&gt;'],
+        ['niagara-falls','Niagara Falls','-79.076028','43.079139','https://cdn2.civitatis.com/estados-unidos/nueva-york/guia/cataratas-niagara-list.jpg','36','2','&lt;p&gt;Northeast of New York, on the border between Canada and EEUU.&lt;/p&gt;'],
+        ['philadelphia','Philadelphia','-75.163586','39.952398','https://cdn2.civitatis.com/estados-unidos/nueva-york/guia/filadelfia-list.jpg','36','3','&lt;p&gt;97 miles southeast of New York&lt;/p&gt;'],
+        ['atlantic-city','Atlantic City','-74.423103','39.364182','https://cdn2.civitatis.com/estados-unidos/nueva-york/guia/atlantic-city-list.jpg','36','4','&lt;p&gt;127 miles south of New York City&lt;/p&gt;'],
+        ['amish-community-lancaster','Visit the Amish in Lancaster','-76.181602','40.038688','https://cdn2.civitatis.com/estados-unidos/nueva-york/guia/comunidad-amish-lancaster-list.jpg','36','5','&lt;p&gt;Lancaster County, Pensilvenia'],
+
+];                                                                                                   
+
+             </script>
+                
+            </article>
+
+            <aside class="l-guide-main__aside _nopadding--b">
+                <div class="o-map-list">
+                    <div class="o-map-list__list__content">
+                        <div class="o-map-list__header">
+                            Select what to see
+                            <a href="#" class="o-map-list__header__close" title=""></a>
+                        </div>
+                        <ul clasS="o-map-list__list">
+                                                                                                                                                                                                                                                    <li class="o-map-list__category" data-category="calle-plaza-zona">
+                                    <h3 class="o-map-list__category__title a-icon--signal">
+                                        <a href="#" title="Square, street or area">Square, street or area</a>
+                                        <a href="#" class="o-map-list__header__close" title=""></a>
+                                    </h3>
+                                    <div class="o-map-list__category__list-wrapper">
+                                        <ol clasS="o-map-list__category__list">
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="Wall Street" href="/wall-street"
+                                                       data-coordenates='{"lon":-74.010698, "lat":40.707161}'>Wall Street</a>
+                                                </li>
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="Manhattan" href="/manhattan"
+                                                       data-coordenates='{"lon":-74.0392715, "lat":40.7590403}'>Manhattan</a>
+                                                </li>
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="Chinatown New York" href="/chinatown"
+                                                       data-coordenates='{"lon":-73.997769, "lat":40.716822}'>Chinatown New York</a>
+                                                </li>
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="Brooklyn" href="/brooklyn"
+                                                       data-coordenates='{"lon":-74.085084, "lat":40.6451594}'>Brooklyn</a>
+                                                </li>
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="Little Italy New York" href="/little-italy"
+                                                       data-coordenates='{"lon":-73.997313, "lat":40.719325}'>Little Italy New York</a>
+                                                </li>
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="Queens" href="/queens"
+                                                       data-coordenates='{"lon":-73.842884, "lat":40.7400275}'>Queens</a>
+                                                </li>
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="Lower East Side" href="/lower-east-side"
+                                                       data-coordenates='{"lon":-73.990238, "lat":40.718111}'>Lower East Side</a>
+                                                </li>
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="The Bronx" href="/bronx"
+                                                       data-coordenates='{"lon":-73.981018, "lat":40.8515753}'>The Bronx</a>
+                                                </li>
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="SoHo New York" href="/soho"
+                                                       data-coordenates='{"lon":-74.001911, "lat":40.724535}'>SoHo New York</a>
+                                                </li>
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="Staten Island" href="/staten-island"
+                                                       data-coordenates='{"lon":-74.2869025, "lat":40.564521}'>Staten Island</a>
+                                                </li>
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="TriBeCa New York" href="/tribeca"
+                                                       data-coordenates='{"lon":-74.006932, "lat":40.71912}'>TriBeCa New York</a>
+                                                </li>
+                                                                                    </ol>
+                                    </div>
+                                </li>
+                                                                                                                                                                                                                        <li class="o-map-list__category" data-category="aeropuerto">
+                                    <h3 class="o-map-list__category__title a-icon--plane">
+                                        <a href="#" title="Airport">Airport</a>
+                                        <a href="#" class="o-map-list__header__close" title=""></a>
+                                    </h3>
+                                    <div class="o-map-list__category__list-wrapper">
+                                        <ol clasS="o-map-list__category__list">
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="JFK Airport" href="/jfk-airport"
+                                                       data-coordenates='{"lon":-73.785939, "lat":40.647108}'>JFK Airport</a>
+                                                </li>
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="LaGuardia Airport" href="/laguardia-airport"
+                                                       data-coordenates='{"lon":-73.871974, "lat":40.774082}'>LaGuardia Airport</a>
+                                                </li>
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="Newark Airport" href="/newark-airport"
+                                                       data-coordenates='{"lon":-74.17913, "lat":40.691263}'>Newark Airport</a>
+                                                </li>
+                                                                                    </ol>
+                                    </div>
+                                </li>
+                                                                                                                                                                                                                        <li class="o-map-list__category" data-category="estacion-tren">
+                                    <h3 class="o-map-list__category__title a-icon--train">
+                                        <a href="#" title="Railway Station">Railway Station</a>
+                                        <a href="#" class="o-map-list__header__close" title=""></a>
+                                    </h3>
+                                    <div class="o-map-list__category__list-wrapper">
+                                        <ol clasS="o-map-list__category__list">
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="Grand Central Terminal" href="/grand-central-terminal"
+                                                       data-coordenates='{"lon":-73.977138, "lat":40.752812}'>Grand Central Terminal</a>
+                                                </li>
+                                                                                    </ol>
+                                    </div>
+                                </li>
+                                                                                                                                                                                                                                                                                                                                                                                                <li class="o-map-list__category" data-category="visita-turistica">
+                                    <h3 class="o-map-list__category__title a-icon--camera">
+                                        <a href="#" title="Sightseeing tours ">Sightseeing tours </a>
+                                        <a href="#" class="o-map-list__header__close" title=""></a>
+                                    </h3>
+                                    <div class="o-map-list__category__list-wrapper">
+                                        <ol clasS="o-map-list__category__list">
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="Times Square" href="/times-square"
+                                                       data-coordenates='{"lon":-73.985673, "lat":40.757707}'>Times Square</a>
+                                                </li>
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="Fifth Avenue" href="/fifth-avenue"
+                                                       data-coordenates='{"lon":-73.973694, "lat":40.763357}'>Fifth Avenue</a>
+                                                </li>
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="Empire State Building" href="/empire-state"
+                                                       data-coordenates='{"lon":-73.985123, "lat":40.748255}'>Empire State Building</a>
+                                                </li>
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="Central Park" href="/central-park"
+                                                       data-coordenates='{"lon":-73.965594, "lat":40.782426}'>Central Park</a>
+                                                </li>
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="World Trade Center" href="/world-trade-center"
+                                                       data-coordenates='{"lon":-74.012489, "lat":40.712199}'>World Trade Center</a>
+                                                </li>
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="Statue of Liberty" href="/statue-of-liberty"
+                                                       data-coordenates='{"lon":-74.044566, "lat":40.689201}'>Statue of Liberty</a>
+                                                </li>
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="9/11 Memorial" href="/memorial-11-s"
+                                                       data-coordenates='{"lon":-74.0135866, "lat":40.7115984}'>9/11 Memorial</a>
+                                                </li>
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="One World Trade Center" href="/one-world-trade-center"
+                                                       data-coordenates='{"lon":-74.0133795, "lat":40.7127431}'>One World Trade Center</a>
+                                                </li>
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="Ellis Island" href="/ellis-island"
+                                                       data-coordenates='{"lon":-74.039708, "lat":40.698995}'>Ellis Island</a>
+                                                </li>
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="Rockefeller Center" href="/rockefeller-center"
+                                                       data-coordenates='{"lon":-73.978661, "lat":40.758704}'>Rockefeller Center</a>
+                                                </li>
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="Brooklyn Bridge" href="/brooklyn-bridge"
+                                                       data-coordenates='{"lon":-73.99689, "lat":40.706116}'>Brooklyn Bridge</a>
+                                                </li>
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="Federal Hall" href="/federal-hall"
+                                                       data-coordenates='{"lon":-74.010322, "lat":40.707157}'>Federal Hall</a>
+                                                </li>
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="The Edge" href="/the-edge"
+                                                       data-coordenates='{"lon":-74.0013343, "lat":40.7541372}'>The Edge</a>
+                                                </li>
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="The Summit - One Vanderbilt" href="/one-vanderbilt-the-summit"
+                                                       data-coordenates='{"lon":-73.9784836, "lat":40.7529967}'>The Summit - One Vanderbilt</a>
+                                                </li>
+                                                                                    </ol>
+                                    </div>
+                                </li>
+                                                                                                                                                                                                                        <li class="o-map-list__category" data-category="museo">
+                                    <h3 class="o-map-list__category__title a-icon--museums">
+                                        <a href="#" title="Museum">Museum</a>
+                                        <a href="#" class="o-map-list__header__close" title=""></a>
+                                    </h3>
+                                    <div class="o-map-list__category__list-wrapper">
+                                        <ol clasS="o-map-list__category__list">
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="National September 11 Museum" href="/memorial-museum"
+                                                       data-coordenates='{"lon":-74.0129557, "lat":40.7115763}'>National September 11 Museum</a>
+                                                </li>
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="Metropolitan Museum of Art" href="/metropolitan"
+                                                       data-coordenates='{"lon":-73.962563, "lat":40.779134}'>Metropolitan Museum of Art</a>
+                                                </li>
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="MoMA" href="/moma"
+                                                       data-coordenates='{"lon":-73.976805, "lat":40.761118}'>MoMA</a>
+                                                </li>
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="Guggenheim Museum" href="/guggenheim-museum"
+                                                       data-coordenates='{"lon":-73.958958, "lat":40.783131}'>Guggenheim Museum</a>
+                                                </li>
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="The Frick Collection" href="/frick-collection"
+                                                       data-coordenates='{"lon":-73.967342, "lat":40.771145}'>The Frick Collection</a>
+                                                </li>
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="Intrepid Sea, Air &amp; Space Museum" href="/intrepid-museum"
+                                                       data-coordenates='{"lon":-73.999443, "lat":40.764413}'>Intrepid Sea, Air &amp; Space Museum</a>
+                                                </li>
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="American Museum of Natural History" href="/museum-natural-history"
+                                                       data-coordenates='{"lon":-73.973458, "lat":40.780769}'>American Museum of Natural History</a>
+                                                </li>
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="Madame Tussauds" href="/madame-tussauds"
+                                                       data-coordenates='{"lon":-73.988564, "lat":40.756618}'>Madame Tussauds</a>
+                                                </li>
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="Tenement Museum" href="/tenement-museum"
+                                                       data-coordenates='{"lon":-73.989884, "lat":40.718758}'>Tenement Museum</a>
+                                                </li>
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="Museum of the City of New York" href="/museum-city-new-york"
+                                                       data-coordenates='{"lon":-73.951968, "lat":40.792517}'>Museum of the City of New York</a>
+                                                </li>
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="Whitney Museum of American Art" href="/whitney-museum-american-art"
+                                                       data-coordenates='{"lon":-74.0088629, "lat":40.7395877}'>Whitney Museum of American Art</a>
+                                                </li>
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="New Museum" href="/new-museum"
+                                                       data-coordenates='{"lon":-73.993011, "lat":40.722212}'>New Museum</a>
+                                                </li>
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="The New York City Police Museum" href="/city-police-museum"
+                                                       data-coordenates='{"lon":-74.0098836, "lat":40.7064627}'>The New York City Police Museum</a>
+                                                </li>
+                                                                                    </ol>
+                                    </div>
+                                </li>
+                                                                                                                                                                                                                        <li class="o-map-list__category" data-category="edificio-religioso">
+                                    <h3 class="o-map-list__category__title a-icon--church">
+                                        <a href="#" title="Religious building">Religious building</a>
+                                        <a href="#" class="o-map-list__header__close" title=""></a>
+                                    </h3>
+                                    <div class="o-map-list__category__list-wrapper">
+                                        <ol clasS="o-map-list__category__list">
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="St Patrick’s Cathedral" href="/saint-patrick-cathedral"
+                                                       data-coordenates='{"lon":-73.976516, "lat":40.758692}'>St Patrick’s Cathedral</a>
+                                                </li>
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="Cathedral of Saint John the Divine" href="/cathedral-saint-john-divine"
+                                                       data-coordenates='{"lon":-73.962257, "lat":40.80391}'>Cathedral of Saint John the Divine</a>
+                                                </li>
+                                                                                    </ol>
+                                    </div>
+                                </li>
+                                                                                                                                                                                                                        <li class="o-map-list__category" data-category="parque-jardin">
+                                    <h3 class="o-map-list__category__title a-icon--tree">
+                                        <a href="#" title="Park or garden">Park or garden</a>
+                                        <a href="#" class="o-map-list__header__close" title=""></a>
+                                    </h3>
+                                    <div class="o-map-list__category__list-wrapper">
+                                        <ol clasS="o-map-list__category__list">
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="High Line Elevated Park" href="/high-line"
+                                                       data-coordenates='{"lon":-74.004679, "lat":40.747928}'>High Line Elevated Park</a>
+                                                </li>
+                                                                                    </ol>
+                                    </div>
+                                </li>
+                                                                                                                                                                                                                                                                                                                                                                                                <li class="o-map-list__category" data-category="ocio">
+                                    <h3 class="o-map-list__category__title a-icon--film">
+                                        <a href="#" title="Leisure and free time ">Leisure and free time </a>
+                                        <a href="#" class="o-map-list__header__close" title=""></a>
+                                    </h3>
+                                    <div class="o-map-list__category__list-wrapper">
+                                        <ol clasS="o-map-list__category__list">
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="Madison Square Garden" href="/madison-square-garden"
+                                                       data-coordenates='{"lon":-73.993499, "lat":40.750492}'>Madison Square Garden</a>
+                                                </li>
+                                                                                    </ol>
+                                    </div>
+                                </li>
+                                                                                                                                                                                                                        <li class="o-map-list__category" data-category="edificio">
+                                    <h3 class="o-map-list__category__title a-icon--building">
+                                        <a href="#" title="Emblematic building">Emblematic building</a>
+                                        <a href="#" class="o-map-list__header__close" title=""></a>
+                                    </h3>
+                                    <div class="o-map-list__category__list-wrapper">
+                                        <ol clasS="o-map-list__category__list">
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="Vessel" href="/vessel"
+                                                       data-coordenates='{"lon":-74.0024275, "lat":40.7537666}'>Vessel</a>
+                                                </li>
+                                                                                    </ol>
+                                    </div>
+                                </li>
+                                                                                                                                                                                                                                                                                                                                        <li class="o-map-list__category" data-category="visita-cercana">
+                                    <h3 class="o-map-list__category__title a-icon--bus-3">
+                                        <a href="#" title="Nearby trips ">Nearby trips </a>
+                                        <a href="#" class="o-map-list__header__close" title=""></a>
+                                    </h3>
+                                    <div class="o-map-list__category__list-wrapper">
+                                        <ol clasS="o-map-list__category__list">
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="Washington D.C." href="/washington-dc"
+                                                       data-coordenates='{"lon":-77.035317, "lat":38.889546}'>Washington D.C.</a>
+                                                </li>
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="Niagara Falls" href="/niagara-falls"
+                                                       data-coordenates='{"lon":-79.076028, "lat":43.079139}'>Niagara Falls</a>
+                                                </li>
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="Philadelphia" href="/philadelphia"
+                                                       data-coordenates='{"lon":-75.163586, "lat":39.952398}'>Philadelphia</a>
+                                                </li>
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="Atlantic City" href="/atlantic-city"
+                                                       data-coordenates='{"lon":-74.423103, "lat":39.364182}'>Atlantic City</a>
+                                                </li>
+                                                                                            <li class="o-map-list__category__list__element">
+                                                    <a title="Visit the Amish in Lancaster" href="/amish-community-lancaster"
+                                                       data-coordenates='{"lon":-76.181602, "lat":40.038688}'>Visit the Amish in Lancaster</a>
+                                                </li>
+                                        </ol>
+                                    </div>
+                                </li>
+                           </ul>
+                    </div>
+                </div>
+            </aside>
+        </div>
+        </div>
+            </main>
+    
+
+<script>text.txt</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"9bf0b81ab3","applicationID":"22384886,6909157","transactionName":"ZAAHY0FXXxADVRFaX11KJFRHX14NTVsEQx8=","queueTime":0,"applicationTime":296,"atts":"SEcEFQlNTB4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
