@@ -146,3 +146,44 @@ img {
     background: #2b2941;
     
 }
+h2 {
+    color: aliceblue;
+    text-align: center;
+    font-size: 65px;
+}
+.container-wrapper {
+    color: #a0a0a0;
+    padding: 4.5em;
+    letter-spacing: 2px;
+    font-size: 1em;
+}
+.wrapper {
+    display: inline-flex;
+    padding: 45px;
+    border-radius: 45px;
+}
+.wrapper img {
+    height: 450px;
+    width: 650px;
+    padding: 10px;
+}
+.wrapper2 {
+    display: inline-flex;
+    padding: 45px;
+    border-radius: 45px;
+}
+.wrapper2 img {
+    height: 450px;
+    width: 650px;
+    padding: 10px
+}
+.wrapper3 {
+    display: inline-flex;
+    padding: 45px;
+    border-radius: 45px;
+}
+.wrapper3 img {
+    height: 450px;
+    width: 650px;
+    padding: 10px
+}
